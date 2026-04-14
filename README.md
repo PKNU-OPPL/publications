@@ -12,7 +12,7 @@ Pukyong National University.
 ## About | 소개
 
 This repository serves as a curated archive of publications, papers, and related research resources from OPPL.  
-It is intended to provide a structured entry point to the laboratory’s research outputs, including publication information, article links, citation details, and related datasets or code when available.
+It provides a structured entry point to the laboratory’s research outputs, including publication information, article links, citation details, and related datasets or code when available.
 
 이 저장소는 OPPL의 논문과 관련 연구 자원을 체계적으로 정리하기 위한 아카이브입니다.  
 논문 정보, 원문 링크, 인용 정보, 그리고 공개 가능한 경우 관련 데이터셋이나 코드까지 연결하는 연구 성과 허브를 목표로 합니다.
@@ -27,21 +27,11 @@ Inseong Chang, Young Ho Kim, Young-Gyu Park, Hyunkeun Jin, Gyundo Pak, Andrew C.
 *Geoscientific Model Development*, **19**, 187–216 (2026)  
 DOI: `10.5194/gmd-19-187-2026`
 
-Study on the performance of vertical coordinate systems in a MOM6-based regional ocean model for the Northwest Pacific.  
-북서태평양 지역 해양모델 MOM6 구성에서 수직 좌표계 성능을 비교·평가한 연구.
-
-- [Paper summary](papers/2026-assessing-vertical-coordinate-system-performance-in-mom6/README.md)
-
 ### 2024
 **Assessment of high-resolution regional ocean reanalysis K-ORA22 for the Northwest Pacific**  
 Inseong Chang, Young Ho Kim, Young-Gyu Park, Hyunkeun Jin, Gyundo Pak, Jae-Il Kwon, You-Soon Chang  
 *Progress in Oceanography*, **229**, 103359 (2024)  
 DOI: `10.1016/j.pocean.2024.103359`
-
-Evaluation of the high-resolution regional ocean reanalysis K-ORA22 for the Northwest Pacific and Korean marginal seas.  
-북서태평양 및 한국 주변해를 대상으로 한 고해상도 지역 해양 재분석 K-ORA22 평가 연구.
-
-- [Paper summary](papers/2024-assessment-of-high-resolution-regional-ocean-reanalysis-k-ora22/README.md)
 
 ### 2023
 **Impact of satellite and regional in-situ profile data assimilation on a high-resolution ocean prediction system in the Northwest Pacific**  
@@ -49,10 +39,14 @@ Inseong Chang, Young Ho Kim, Hyunkeun Jin, Young-Gyu Park, Gyundo Pak, You-Soon 
 *Frontiers in Marine Science*, **10**, 1085542 (2023)  
 DOI: `10.3389/fmars.2023.1085542`
 
-Assessment of how satellite observations and regional in-situ profile data improve a high-resolution Northwest Pacific prediction system.  
-위성 관측과 지역 현장관측 자료동화가 고해상도 북서태평양 예측시스템 개선에 미치는 영향을 평가한 연구.
+---
 
-- [Paper summary](papers/2023-impact-of-satellite-and-regional-in-situ-profile-data-assimilation/README.md)
+## Browse All Publications | 전체 논문 목록
+
+For the complete publication list, see:  
+전체 논문 목록은 아래 문서에서 확인할 수 있습니다.
+
+- [docs/publications.md](docs/publications.md)
 
 ---
 
@@ -75,6 +69,8 @@ Assessment of how satellite observations and regional in-situ profile data impro
 
 publications/  
 ├─ README.md  
+├─ docs/  
+│  └─ publications.md  
 ├─ data/  
 │  └─ publications.yml  
 ├─ bib/  
@@ -84,18 +80,6 @@ publications/
 │  ├─ 2024-assessment-of-high-resolution-regional-ocean-reanalysis-k-ora22/  
 │  └─ 2026-assessing-vertical-coordinate-system-performance-in-mom6/  
 └─ assets/
-
-Each paper directory may include:
-- article summary
-- citation information
-- PDF file when archiving is appropriate
-- links to code, data, or related resources
-
-각 논문 폴더에는 다음 자료가 포함될 수 있습니다.
-- 논문 요약
-- 인용 정보
-- 필요 시 PDF 파일
-- 관련 코드, 데이터, 참고 자원 링크
 
 ---
 
